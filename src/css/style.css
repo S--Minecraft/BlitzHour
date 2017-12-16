@@ -1,3 +1,9 @@
+#fh5co-home {
+  background-image: url(../images/e25.jpg);
+  background-size: 120% !important;
+}
+
+/* ------------------------------------------------------- */
 @font-face {
   font-family: 'icomoon';
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
@@ -6,10 +12,7 @@
   font-style: normal;
 }
 /* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
+* 	Template Style
 * ======================================================= */
 body {
   font-family: "Inconsolata", Arial, sans-serif;
@@ -943,5 +946,3 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-
-/*# sourceMappingURL=style.css.map */
