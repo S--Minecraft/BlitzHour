@@ -653,3 +653,7 @@ h1, h2, h3, h4, h5, h6 {
 #footer {
   margin: 20em 1em 1.5em;
 }
+
+#footer.mini-footer {
+  margin-top: 0;
+}
