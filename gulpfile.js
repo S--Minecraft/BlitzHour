@@ -3,11 +3,15 @@ var concat = require("gulp-concat");
 var htmlmin = require("gulp-htmlmin");
 var csso = require("gulp-csso");
 var uglify = require("gulp-uglify");
+var cacheBust = require("gulp-cache-bust");
 
 gulp.task("default", ["html", "css", "js", "js2", "font", "img"]);
 
 gulp.task("html", function() {
   return gulp.src("src/**/*.html")
+    .pipe(cacheBust({
+      type: "timestamp"
+    }))
     .pipe(htmlmin({
       collapseWhitespace: true,
       removeAttributeQuotes: true,
