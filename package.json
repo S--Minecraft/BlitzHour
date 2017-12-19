@@ -18,6 +18,7 @@
   "homepage": "https://github.com/S--Minecraft/BlitzHour#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-cache-bust": "^1.1.0",
     "gulp-concat": "^2.6.1",
     "gulp-csso": "^3.0.0",
     "gulp-htmlmin": "^3.0.0",
