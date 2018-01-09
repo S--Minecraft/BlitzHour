@@ -3,6 +3,15 @@
   background-size: 120% !important;
 }
 
+#about .date {
+  padding-bottom: 30px;
+}
+
+#about .date h3 {
+  margin: 0;
+  padding: 0;
+}
+
 /* ------------------------------------------------------- */
 @font-face {
   font-family: 'icomoon';
