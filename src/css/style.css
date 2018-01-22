@@ -12,6 +12,24 @@
   padding: 0;
 }
 
+.table-dark-striped > tbody > tr:nth-of-type(odd){
+  background-color: #1d1d1d;
+}
+
+#league-result tr > th, #league-result tr > td {
+  text-align: center;
+  vertical-align: middle;
+  border-top: 0;
+}
+
+.results {
+  font-size: 20px;
+}
+
+#final-result {
+  font-size: 24px;
+}
+
 /* ------------------------------------------------------- */
 @font-face {
   font-family: 'icomoon';
