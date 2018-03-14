@@ -24,7 +24,7 @@
 				$form.append($("<div class=\"alert alert-success alert-dismissible\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\"><span>&times;</span></button>送信完了</div>"));
 			},
 			error: function(xhr, settings) {
-				$form.append($("<div class=\"alert alert-warning alert-dismissible\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\"><span>&times;</span></button>送信失敗</div>"));
+				$form.append($("<div class=\"alert alert-danger alert-dismissible\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\"><span>&times;</span></button>送信失敗</div>"));
 			}
 		});
 	});
