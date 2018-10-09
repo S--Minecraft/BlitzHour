@@ -5,8 +5,6 @@ var csso = require("gulp-csso");
 var uglify = require("gulp-uglify");
 var cacheBust = require("gulp-cache-bust");
 
-gulp.task("default", ["html", "css", "js", "js2", "font", "img"]);
-
 gulp.task("html", function() {
   return gulp.src("src/**/*.html")
     .pipe(cacheBust({
@@ -58,3 +56,5 @@ gulp.task("img", function() {
   return gulp.src("src/images/**")
     .pipe(gulp.dest("bin/images"))
 });
+
+gulp.task("default", gulp.parallel("html", "css", "js", "js2", "font", "img"));

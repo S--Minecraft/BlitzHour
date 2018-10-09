@@ -17,11 +17,11 @@
   },
   "homepage": "https://github.com/S--Minecraft/BlitzHour#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-cache-bust": "^1.1.0",
+    "gulp": "^4.0.0",
+    "gulp-cache-bust": "^1.4.0",
     "gulp-concat": "^2.6.1",
-    "gulp-csso": "^3.0.0",
+    "gulp-csso": "^3.0.1",
     "gulp-htmlmin": "^3.0.0",
-    "gulp-uglify": "^3.0.0"
+    "gulp-uglify": "^3.0.1"
   }
 }
